@@ -71,8 +71,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="Sign In"
-        app:layout_constraintTop_toBottomOf="@+id/forgotTV"
-        tools:layout_editor_absoluteX="172dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgotTV" />
 
     <TextView
         android:id="@+id/textView9"
@@ -80,8 +81,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="Don't have an account?"
-        app:layout_constraintTop_toBottomOf="@+id/signin_btn"
-        tools:layout_editor_absoluteX="134dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin_btn" />
 
     <Button
         android:id="@+id/newacc_btn"
@@ -89,7 +91,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Create a new account"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        tools:layout_editor_absoluteX="93dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
